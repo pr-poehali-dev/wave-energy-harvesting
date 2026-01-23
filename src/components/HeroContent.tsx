@@ -27,12 +27,20 @@ export default function HeroContent() {
 
         {/* Buttons */}
         <div className="flex items-center gap-4 flex-wrap">
-          <button className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer">
+          <a 
+            href="#projects"
+            className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer inline-block"
+          >
             Наши проекты
-          </button>
-          <button className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer">
+          </a>
+          <a
+            href="https://t.me/your_telegram"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer inline-block"
+          >
             Получить консультацию
-          </button>
+          </a>
         </div>
       </div>
     </main>
